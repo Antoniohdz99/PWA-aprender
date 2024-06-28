@@ -1,0 +1,28 @@
+{
+  "name": "twittor-server-client",
+  "version": "1.0.0",
+  "description": "Este es un pequeño servidor de express listo para ejecutarse y servir la carpeta public en la web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "dev": "nodemon  server//server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Antoniohdz99/PWA-aprender.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Antoniohdz99/PWA-aprender/issues"
+  },
+  "homepage": "https://github.com/Antoniohdz99/PWA-aprender#readme"
+}
